@@ -168,11 +168,14 @@ Este proyecto utiliza Módulos ES6 (import/export) y carga texturas mediante Thr
 
 Si prefieres no instalar nada, puedes usar la terminal integrada de VS Code y ejecutar:
 
-```bash
-# Ubícate en la carpeta del proyecto en la terminal y ejecuta:
-python -m http.server 8000
+## Ubícate en la carpeta del proyecto en la terminal y ejecuta:
 
-🧪 Pruebas Técnicas
+```bash
+python -m http.server 8000
+```
+
+## 🧪 Pruebas Técnicas
+
 Aunque Project Celestia es una herramienta de medición, el sistema subyacente fue sometido a pruebas para garantizar su precisión:
 
 Tipo de Prueba	Descripción

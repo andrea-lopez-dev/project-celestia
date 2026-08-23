@@ -87,83 +87,90 @@ Su función principal es permitirte **mover, escalar y ajustar** cualquier capa 
 └── README.md                      # Documentación del proyecto
 ```
 
-# ⚙️ Características Clave
+## ⚙️ Características Clave
 
-## 🎯 Medición Técnica en Tiempo Real
+### 🎯 Medición Técnica en Tiempo Real
+
 El panel lateral te permite seleccionar cualquier capa PNG del lienzo y modificar sus propiedades. Project Celestia calcula y muestra instantáneamente los valores exactos:
 
-*  Propiedad	Descripción
-*  Posición X/Y	Coordenadas en el plano del lienzo
-*  Rotación Z	Ángulo de rotación en grados
-*  Escala X/Y	Factor de escala horizontal y vertical
-*  Opacidad (α)	Transparencia de la capa (0.0 a 1.0)
-*  Curvatura (Bend X/Y)	Distorsión o deformación de la geometría de la capa
+| Propiedad | Descripción |
+|-----------|-------------|
+| **Posición X/Y** | Coordenadas en el plano del lienzo |
+| **Rotación Z** | Ángulo de rotación en grados |
+| **Escala X/Y** | Factor de escala horizontal y vertical |
+| **Opacidad (α)** | Transparencia de la capa (0.0 a 1.0) |
+| **Curvatura (Bend X/Y)** | Distorsión o deformación de la geometría de la capa |
 
-🖱️ Interacción y Manipulación
-Selección de Capas: Haz clic sobre cualquier elemento del lienzo para seleccionarlo, o usa el menú desplegable del panel para elegir una capa específica.
+### 🖱️ Interacción y Manipulación
 
-Arrastre Libre: Mueve las capas arrastrándolas con el mouse para obtener coordenadas dinámicas.
+- **Selección de Capas**: Haz clic sobre cualquier elemento del lienzo para seleccionarlo, o usa el menú desplegable del panel para elegir una capa específica.
+- **Arrastre Libre**: Mueve las capas arrastrándolas con el mouse para obtener coordenadas dinámicas.
+- **Control de Superposición**: Usa los botones "Encima" y "Debajo" para alterar el orden de renderizado (Render Order) de las capas.
 
-Control de Superposición: Usa los botones "Encima" y "Debajo" para alterar el orden de renderizado (Render Order) de las capas.
+### 💾 Historial de Trabajo
 
-💾 Historial de Trabajo
-Undo / Redo: Con soporte para teclado (Ctrl+Z / Ctrl+Y) y botones en el panel, con un historial máximo de 10 estados.
+- **Undo / Redo**: Con soporte para teclado (`Ctrl+Z` / `Ctrl+Y`) y botones en el panel, con un historial máximo de 10 estados.
+- **Reset de Capa / Reset Total**: Restaura los valores originales de una capa o de todas las capas con un solo clic.
 
-Reset de Capa / Reset Total: Restaura los valores originales de una capa o de todas las capas con un solo clic.
+### 🛡️ Protección Anti-Inspección
 
-🛡️ Protección Anti-Inspección
-Detección de DevTools: El sistema detecta la apertura de herramientas de desarrollo (F12 o atajo) y activa medidas de protección temporales.
+- **Detección de DevTools**: El sistema detecta la apertura de herramientas de desarrollo (F12 o atajo) y activa medidas de protección temporales.
+- **Bloqueo de Selección**: Deshabilita la selección de texto y el clic derecho sobre el lienzo para proteger el entorno de trabajo.
 
-Bloqueo de Selección: Deshabilita la selección de texto y el clic derecho sobre el lienzo para proteger el entorno de trabajo.
+---
 
-🎨 Activos Gráficos y Autoría
+## 🎨 Activos Gráficos y Autoría
+
 Todos los recursos visuales utilizados en este proyecto, incluyendo:
 
-Logo de Project Celestia (diseño tipográfico con efecto arcoíris/onda).
+- **Logo de Project Celestia** (diseño tipográfico con efecto arcoíris/onda).
+- **Personaje "Celestia"** (rostro, ojos, pestañas, cejas, labios y cabello en múltiples capas PNG).
 
-Personaje "Celestia" (rostro, ojos, pestañas, cejas, labios y cabello en múltiples capas PNG).
+Son **100% de mi autoría (Copyright © 2024)**. Estos activos fueron diseñados y renderizados específicamente para **Project Celestia** con el fin de demostrar la capacidad de medición y análisis de coordenadas de la herramienta.
 
-Son 100% de mi autoría (Copyright © 2024). Estos activos fueron diseñados y renderizados específicamente para Project Celestia con el fin de demostrar la capacidad de medición y análisis de coordenadas de la herramienta.
+> **Aviso de Licencia:** Estos activos están incluidos en este repositorio bajo la misma **Licencia MIT** que cubre el código fuente. Esto significa que se pueden usar, copiar, modificar y distribuir libremente, siempre que se conserve el aviso de copyright original y esta licencia.
 
-Aviso de Licencia: Estos activos están incluidos en este repositorio bajo la misma Licencia MIT que cubre el código fuente. Esto significa que se pueden usar, copiar, modificar y distribuir libremente, siempre que se conserve el aviso de copyright original y esta licencia.
+---
 
-🔄 Flujo de Trabajo
-Abrir Project Celestia: Carga el visor en tu navegador.
+## 🔄 Flujo de Trabajo
 
-Seleccionar la Capa PNG: Haz clic sobre la capa que deseas analizar (o selecciónala desde el menú desplegable).
+1. **Abrir Project Celestia**: Carga el visor en tu navegador.
+2. **Seleccionar la Capa PNG**: Haz clic sobre la capa que deseas analizar (o selecciónala desde el menú desplegable).
+3. **Ajustar y Medir**: Mueve, escala o rota la capa. El panel lateral te mostrará instantáneamente la coordenada o propiedad exacta que estás aplicando.
+4. **Trasladar a tu Código**: Copia los valores mostrados (ejemplo: `posX: 0.35, scaleY: 0.4, opacity: 0.8`) y pégalos en tu motor de juego o código fuente.
+5. **Iterar**: Usa Undo/Redo para comparar diferentes posiciones o configuraciones hasta encontrar la perfecta para tu desarrollo.
 
-Ajustar y Medir: Mueve, escala o rota la capa. El panel lateral te mostrará instantáneamente la coordenada o propiedad exacta que estás aplicando.
+---
 
-Trasladar a tu Código: Copia los valores mostrados (ejemplo: posX: 0.35, scaleY: 0.4, opacity: 0.8) y pégalos en tu motor de juego o código fuente.
+## 🛠️ Instalación y Configuración
 
-Iterar: Usa Undo/Redo para comparar diferentes posiciones o configuraciones hasta encontrar la perfecta para tu desarrollo.
+### Requisitos Previos
 
-🛠️ Instalación y Configuración
-Requisitos Previos
-Requisito	Versión
-Navegador Web	Chrome, Firefox, Edge (versiones modernas)
-Editor	Visual Studio Code (Recomendado)
-⚠️ IMPORTANTE: ¿Por qué necesitas un servidor local?
-Este proyecto utiliza Módulos ES6 (import/export) y carga texturas mediante Three.js. Por razones de seguridad (política CORS), los navegadores bloquean la ejecución de scripts y la carga de recursos cuando intentas abrir el archivo index.html haciendo doble clic sobre él (protocolo file:///).
+| Requisito | Versión |
+|-----------|---------|
+| **Navegador Web** | Chrome, Firefox, Edge (versiones modernas) |
+| **Editor** | Visual Studio Code (Recomendado) |
 
-Es obligatorio ejecutar el proyecto a través de un servidor HTTP local.
+### ⚠️ IMPORTANTE: ¿Por qué necesitas un servidor local?
 
-🚀 Método Recomendado: Instalar "Live Server" (Extensión de VS Code)
-Instalar la extensión: Abre Visual Studio Code, ve al panel de Extensiones (Ctrl+Shift+X) y busca "Live Server" (de Ritwick Dey). Haz clic en "Instalar".
+Este proyecto utiliza Módulos ES6 (import/export) y carga texturas mediante Three.js. Por razones de seguridad (política **CORS**), los navegadores bloquean la ejecución de scripts y la carga de recursos cuando intentas abrir el archivo `index.html` haciendo doble clic sobre él (protocolo `file:///`).
 
-Abrir el proyecto: Abre la carpeta del proyecto en VS Code.
+**Es obligatorio ejecutar el proyecto a través de un servidor HTTP local.**
 
-Iniciar el servidor: Haz clic derecho sobre el archivo index.html y selecciona "Open with Live Server".
+### 🚀 Método Recomendado: Instalar "Live Server" (Extensión de VS Code)
 
-Acceder al visor: El navegador se abrirá automáticamente en http://127.0.0.1:5500 y estará listo para usar. Además, se recargará automáticamente cada vez que guardes cambios en tu código.
+1. **Instalar la extensión**: Abre Visual Studio Code, ve al panel de Extensiones (Ctrl+Shift+X) y busca **"Live Server"** (de Ritwick Dey). Haz clic en "Instalar".
+2. **Abrir el proyecto**: Abre la carpeta del proyecto en VS Code.
+3. **Iniciar el servidor**: Haz clic derecho sobre el archivo `index.html` y selecciona "Open with Live Server".
+4. **Acceder al visor**: El navegador se abrirá automáticamente en `http://127.0.0.1:5500` y estará listo para usar. Además, se recargará automáticamente cada vez que guardes cambios en tu código.
 
-🐍 Alternativa sin instalar extensiones (Python)
+### 🐍 Alternativa sin instalar extensiones (Python)
+
 Si prefieres no instalar nada, puedes usar la terminal integrada de VS Code y ejecutar:
 
-bash
+```bash
 # Ubícate en la carpeta del proyecto en la terminal y ejecuta:
 python -m http.server 8000
-Luego abre tu navegador en http://localhost:8000.
 
 🧪 Pruebas Técnicas
 Aunque Project Celestia es una herramienta de medición, el sistema subyacente fue sometido a pruebas para garantizar su precisión:

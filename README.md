@@ -134,11 +134,11 @@ Son **100% de mi autoría (Copyright © 2024)**. Estos activos fueron diseñados
 
 ## 🔄 Flujo de Trabajo
 
-1. **Abrir Project Celestia**: Carga el visor en tu navegador.
-2. **Seleccionar la Capa PNG**: Haz clic sobre la capa que deseas analizar (o selecciónala desde el menú desplegable).
-3. **Ajustar y Medir**: Mueve, escala o rota la capa. El panel lateral te mostrará instantáneamente la coordenada o propiedad exacta que estás aplicando.
-4. **Trasladar a tu Código**: Copia los valores mostrados (ejemplo: `posX: 0.35, scaleY: 0.4, opacity: 0.8`) y pégalos en tu motor de juego o código fuente.
-5. **Iterar**: Usa Undo/Redo para comparar diferentes posiciones o configuraciones hasta encontrar la perfecta para tu desarrollo.
+**1. Abrir Project Celestia**: Carga el visor en tu navegador.
+**2. Seleccionar la Capa PNG**: Haz clic sobre la capa que deseas analizar (o selecciónala desde el menú desplegable).
+**3. Ajustar y Medir**: Mueve, escala o rota la capa. El panel lateral te mostrará instantáneamente la coordenada o propiedad exacta que estás aplicando.
+**4. Trasladar a tu Código**: Copia los valores mostrados (ejemplo: `posX: 0.35, scaleY: 0.4, opacity: 0.8`) y pégalos en tu motor de juego o código fuente.
+**5. Iterar**: Usa Undo/Redo para comparar diferentes posiciones o configuraciones hasta encontrar la perfecta para tu desarrollo.
 
 ---
 
@@ -159,10 +159,10 @@ Este proyecto utiliza Módulos ES6 (import/export) y carga texturas mediante Thr
 
 ### 🚀 Método Recomendado: Instalar "Live Server" (Extensión de VS Code)
 
-1. **Instalar la extensión**: Abre Visual Studio Code, ve al panel de Extensiones (Ctrl+Shift+X) y busca **"Live Server"** (de Ritwick Dey). Haz clic en "Instalar".
-2. **Abrir el proyecto**: Abre la carpeta del proyecto en VS Code.
-3. **Iniciar el servidor**: Haz clic derecho sobre el archivo `index.html` y selecciona "Open with Live Server".
-4. **Acceder al visor**: El navegador se abrirá automáticamente en `http://127.0.0.1:5500` y estará listo para usar. Además, se recargará automáticamente cada vez que guardes cambios en tu código.
+**1. Instalar la extensión**: Abre Visual Studio Code, ve al panel de Extensiones (Ctrl+Shift+X) y busca **"Live Server"** (de Ritwick Dey). Haz clic en "Instalar".
+**2. Abrir el proyecto**: Abre la carpeta del proyecto en VS Code.
+**3. Iniciar el servidor**: Haz clic derecho sobre el archivo `index.html` y selecciona "Open with Live Server".
+**4. Acceder al visor**: El navegador se abrirá automáticamente en `http://127.0.0.1:5500` y estará listo para usar. Además, se recargará automáticamente cada vez que guardes cambios en tu código.
 
 ### 🐍 Alternativa sin instalar extensiones (Python)
 

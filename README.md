@@ -85,16 +85,20 @@ Su función principal es permitirte **mover, escalar y ajustar** cualquier capa 
 ├── .gitignore                     # Archivos ignorados por Git
 ├── LICENSE                        # Licencia MIT
 └── README.md                      # Documentación del proyecto
-⚙️ Características Clave
-🎯 Medición Técnica en Tiempo Real
+```
+
+# ⚙️ Características Clave
+
+## 🎯 Medición Técnica en Tiempo Real
 El panel lateral te permite seleccionar cualquier capa PNG del lienzo y modificar sus propiedades. Project Celestia calcula y muestra instantáneamente los valores exactos:
 
-Propiedad	Descripción
-Posición X/Y	Coordenadas en el plano del lienzo
-Rotación Z	Ángulo de rotación en grados
-Escala X/Y	Factor de escala horizontal y vertical
-Opacidad (α)	Transparencia de la capa (0.0 a 1.0)
-Curvatura (Bend X/Y)	Distorsión o deformación de la geometría de la capa
+*  Propiedad	Descripción
+*  Posición X/Y	Coordenadas en el plano del lienzo
+*  Rotación Z	Ángulo de rotación en grados
+*  Escala X/Y	Factor de escala horizontal y vertical
+*  Opacidad (α)	Transparencia de la capa (0.0 a 1.0)
+*  Curvatura (Bend X/Y)	Distorsión o deformación de la geometría de la capa
+
 🖱️ Interacción y Manipulación
 Selección de Capas: Haz clic sobre cualquier elemento del lienzo para seleccionarlo, o usa el menú desplegable del panel para elegir una capa específica.
 

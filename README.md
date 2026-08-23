@@ -1,50 +1,74 @@
-🌌 Project Celestia - Visor de Coordenadas y Propiedades para Capas PNG
-<p align="center"> <img src="assets/img/ui/al.png" alt="Logo Project Celestia" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: 20px;"> </p><p align="center"> <em>La herramienta técnica para desarrolladores que necesitan trasladar sprites PNG a su código con precisión absoluta.</em> </p><div align="center">
-https://img.shields.io/badge/Project%2520Celestia-Visor%2520T%C3%A9cnico-brightgreen
-https://img.shields.io/badge/Three.js-0.160-049EF4?style=flat-square&logo=threedotjs&logoColor=white
-https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=black
-https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white
-https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white
-https://img.shields.io/badge/License-MIT-blue?style=flat-square
+# 🌌 Project Celestia - Visor de Coordenadas y Propiedades para Capas PNG
 
-</div><p align="center"> <img src="docs/media/celestia_demo.gif" alt="Demostración de Project Celestia" width="900" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);"> </p>
-📑 Índice
-📖 Descripción General
+<p align="center">
+  <img src="assets/img/ui/al.png" alt="Logo Project Celestia" width="200" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: 20px;">
+</p>
 
-🚀 Stack Tecnológico
+<p align="center">
+  <em>La herramienta técnica para desarrolladores que necesitan trasladar sprites PNG a su código con precisión absoluta.</em>
+</p>
 
-📂 Estructura del Proyecto
+<div align="center">
 
-⚙️ Características Clave
+[![Project Celestia](https://img.shields.io/badge/Project%20Celestia-Visor%20Técnico-brightgreen)](https://github.com/tu-usuario/project-celestia)
+[![Three.js](https://img.shields.io/badge/Three.js-0.160-049EF4?style=flat-square&logo=threedotjs&logoColor=white)](https://threejs.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 
-🎨 Activos Gráficos y Autoría
+</div>
 
-🔄 Flujo de Trabajo
+<p align="center">
+  <img src="docs/media/celestia_demo.gif" 
+       alt="Demostración de Project Celestia" 
+       width="900" 
+       style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+</p>
 
-🛠️ Instalación y Configuración
+---
 
-🧪 Pruebas Técnicas
+## 📑 Índice
 
-📜 Licencia
+- [📖 Descripción General](#-descripción-general)
+- [🚀 Stack Tecnológico](#-stack-tecnológico)
+- [📂 Estructura del Proyecto](#-estructura-del-proyecto)
+- [⚙️ Características Clave](#️-características-clave)
+- [🎨 Activos Gráficos y Autoría](#-activos-gráficos-y-autoría)
+- [🔄 Flujo de Trabajo](#-flujo-de-trabajo)
+- [🛠️ Instalación y Configuración](#️-instalación-y-configuración)
+- [🧪 Pruebas Técnicas](#-pruebas-técnicas)
+- [📜 Licencia](#-licencia)
 
-📖 Descripción General
-Project Celestia no es un editor para crear animaciones. Es una herramienta de medición y análisis técnico diseñada específicamente para desarrolladores de videojuegos, aplicaciones y diseñadores técnicos que necesitan conocer los valores numéricos exactos (posición X/Y, escala, opacidad, rotación, curvatura) de una capa PNG (sprite) individual.
+---
 
-Su función principal es permitirte mover, escalar y ajustar cualquier capa PNG dentro de un lienzo, mientras el panel lateral te muestra en tiempo real la medida exacta que estás ejerciendo sobre esa capa.
+## 📖 Descripción General
 
-¿Por qué es útil? Porque al conocer estos valores exactos, puedes trasladarlos directamente a tu código (Unity, Unreal Engine, Godot, motores propios o frameworks web) sin necesidad de adivinar ni hacer pruebas manuales.
+**Project Celestia** no es un editor para crear animaciones. Es una herramienta de **medición y análisis técnico** diseñada específicamente para **desarrolladores de videojuegos, aplicaciones y diseñadores técnicos** que necesitan conocer los valores numéricos exactos (posición X/Y, escala, opacidad, rotación, curvatura) de una capa PNG (sprite) individual.
 
-🚀 Visión a Futuro: Aunque la versión actual está diseñada para capas PNG, la arquitectura del proyecto es modular y escalable, preparada para futuras versiones que integrarán modelos 3D, animaciones complejas y exportación de datos en formato JSON u otros estándares de la industria.
+Su función principal es permitirte **mover, escalar y ajustar** cualquier capa PNG dentro de un lienzo, mientras el panel lateral te muestra en tiempo real la medida exacta que estás ejerciendo sobre esa capa.
 
-🚀 Stack Tecnológico
-Capa	Tecnología
-Motor Gráfico	Three.js (WebGL)
-Lenguaje	JavaScript (ES6 Modules)
-Interfaz	HTML5, CSS3
-Almacenamiento	Historial en memoria (Undo/Redo)
-Arquitectura	Cliente-Servidor (Web)
-📂 Estructura del Proyecto
-text
+**¿Por qué es útil?** Porque al conocer estos valores exactos, puedes trasladarlos directamente a tu código (Unity, Unreal Engine, Godot, motores propios o frameworks web) sin necesidad de adivinar ni hacer pruebas manuales.
+
+> 🚀 **Visión a Futuro:** Aunque la versión actual está diseñada para capas PNG, la arquitectura del proyecto es modular y escalable, preparada para futuras versiones que integrarán modelos 3D, animaciones complejas y exportación de datos en formato JSON u otros estándares de la industria.
+
+---
+
+## 🚀 Stack Tecnológico
+
+| Capa | Tecnología |
+|------|------------|
+| **Motor Gráfico** | Three.js (WebGL) |
+| **Lenguaje** | JavaScript (ES6 Modules) |
+| **Interfaz** | HTML5, CSS3 |
+| **Almacenamiento** | Historial en memoria (Undo/Redo) |
+| **Arquitectura** | Cliente-Servidor (Web) |
+
+---
+
+## 📂 Estructura del Proyecto
+
+```text
 /
 ├── assets/
 │   ├── css/
@@ -148,4 +172,4 @@ Rendimiento	Optimización del renderizado para mantener 60 FPS incluso con múlt
 📜 Licencia
 Distribuido bajo la licencia MIT. 📄 Ver archivo LICENSE para más detalles.
 
-<p align="center"> <sub>© 2024 Project Celestia. Todos los derechos reservados.</sub> </p><p align="center"> <sub>Hecho con ❤️ para la comunidad de desarrolladores.</sub> </p>
+<p align="center"> <sub>© 2024 Project Celestia. Todos los derechos reservados.</sub> </p><p align="center"> <sub>Hecho con ❤️ para la comunidad de desarrolladores.</sub> </p> ```

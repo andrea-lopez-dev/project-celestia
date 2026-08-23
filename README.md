@@ -126,7 +126,7 @@ Todos los recursos visuales utilizados en este proyecto, incluyendo:
 - **Logo de Project Celestia** (diseño tipográfico con efecto arcoíris/onda).
 - **Personaje "Celestia"** (rostro, ojos, pestañas, cejas, labios y cabello en múltiples capas PNG).
 
-Son **100% de mi autoría (Copyright © 2024)**. Estos activos fueron diseñados y renderizados específicamente para **Project Celestia** con el fin de demostrar la capacidad de medición y análisis de coordenadas de la herramienta.
+Son **100% de mi autoría (Copyright © 2026)**. Estos activos fueron diseñados y renderizados específicamente para **Project Celestia** con el fin de demostrar la capacidad de medición y análisis de coordenadas de la herramienta.
 
 > **Aviso de Licencia:** Estos activos están incluidos en este repositorio bajo la misma **Licencia MIT** que cubre el código fuente. Esto significa que se pueden usar, copiar, modificar y distribuir libremente, siempre que se conserve el aviso de copyright original y esta licencia.
 

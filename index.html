@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Celestia</title>
+      <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="assets/img/ui/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/ui/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/ui/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/img/ui/apple-touch-icon.png">
+</head>
+<body>
+    <div id="app">
+        <div id="canvas-container"></div>
+        
+        <div id="sidebar">
+            <div class="sidebar-header">
+                <h2>⚙ CONTROLES</h2>
+               <button id="btnToggleSidebar" class="icon-btn" title="Ocultar/Mostrar panel">
+               <img src="assets/img/ui/pc.png" alt="toggle" class="icon-symbol" />
+                </button>
+            </div>
+            
+            <div class="sidebar-content" id="sidebarContent">
+                <div class="layer-info-panel">
+                    <div class="info-row">
+                        <span class="label">CAPA</span>
+                        <select id="layerSelect" class="layer-select">
+                            <option value="">Selecciona tu capa</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- INTERRUPTOR DE ANIMACIONES -->
+                <div class="control-group">
+                    <h3>⟳ ANIMACIONES</h3>
+                    <div class="control-row">
+                        <button id="btnToggleAnimations" class="toggle-anim-btn">ACTIVAR ANIMACIONES</button>
+                    </div>
+                </div>
+
+                <!-- UNDO / REDO -->
+                <div class="control-group">
+                    <h3>↩ DESHACER / REHACER</h3>
+                    <div class="control-row undo-redo-row">
+                        <button id="btnUndo" class="undo-redo-btn" disabled>↩ DESHACER</button>
+                        <button id="btnRedo" class="undo-redo-btn" disabled>↪ REHACER</button>
+                    </div>
+                </div>
+
+                <!-- CONTROL DE SUPERPOSICIÓN -->
+                <div class="control-group">
+                    <h3>⊞ SUPERPOSICIÓN</h3>
+                    <div class="control-row stack-row">
+                        <button id="btnBringToFront" class="stack-btn">▲ ENCIMA</button>
+                        <button id="btnSendToBack" class="stack-btn">▼ DEBAJO</button>
+                    </div>
+                </div>
+
+                <!-- Posición -->
+                <div class="control-group">
+                    <h3>◈ POSICIÓN</h3>
+                    <div class="control-row">
+                        <label>X</label>
+                        <input type="range" id="posX" min="-5" max="5" step="0.001" value="0">
+                        <input type="number" id="posXVal" min="-5" max="5" step="0.01" value="0">
+                    </div>
+                    <div class="control-row">
+                        <label>Y</label>
+                        <input type="range" id="posY" min="-5" max="5" step="0.001" value="0">
+                        <input type="number" id="posYVal" min="-5" max="5" step="0.01" value="0">
+                    </div>
+                </div>
+
+                <!-- Rotación -->
+                <div class="control-group">
+                    <h3>⟳ ROTACIÓN</h3>
+                    <div class="control-row">
+                        <label>Z</label>
+                        <input type="range" id="rotZ" min="-180" max="180" step="0.1" value="0">
+                        <input type="number" id="rotZVal" min="-180" max="180" step="0.1" value="0">
+                    </div>
+                </div>
+
+                <!-- Escala -->
+                <div class="control-group">
+                    <h3>⇔ ESCALA</h3>
+                    <div class="control-row">
+                        <label>X</label>
+                        <input type="range" id="scaleX" min="0.1" max="10" step="0.01" value="1">
+                        <input type="number" id="scaleXVal" min="0.1" max="10" step="0.01" value="1">
+                    </div>
+                    <div class="control-row">
+                        <label>Y</label>
+                        <input type="range" id="scaleY" min="0.1" max="10" step="0.01" value="1">
+                        <input type="number" id="scaleYVal" min="0.1" max="10" step="0.01" value="1">
+                    </div>
+                </div>
+
+                <!-- Curvatura -->
+                <div class="control-group">
+                    <h3>⌇ CURVATURA</h3>
+                    <div class="control-row">
+                        <label>X</label>
+                        <input type="range" id="bendX" min="-2" max="2" step="0.01" value="0">
+                        <input type="number" id="bendXVal" min="-2" max="2" step="0.01" value="0">
+                    </div>
+                    <div class="control-row">
+                        <label>Y</label>
+                        <input type="range" id="bendY" min="-2" max="2" step="0.01" value="0">
+                        <input type="number" id="bendYVal" min="-2" max="2" step="0.01" value="0">
+                    </div>
+                </div>
+
+                <!-- Opacidad -->
+                <div class="control-group">
+                    <h3>◑ OPACIDAD</h3>
+                    <div class="control-row">
+                        <label>α</label>
+                        <input type="range" id="opacity" min="0" max="1" step="0.01" value="1">
+                        <input type="number" id="opacityVal" min="0" max="1" step="0.01" value="1">
+                    </div>
+                </div>
+
+                <!-- Botones -->
+                <div class="action-buttons">
+                    <button id="btnResetLayer" class="reset-btn">↺ RESETEAR CAPA</button>
+                    <button id="btnResetAll" class="reset-btn">↻ RESETEAR TODO</button>
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <button id="btnMinimize" class="toggle-btn">◀ OCULTAR</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+            }
+        }
+    </script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

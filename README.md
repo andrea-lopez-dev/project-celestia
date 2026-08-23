@@ -206,7 +206,7 @@ Aunque Project Celestia es una herramienta de medición, el sistema subyacente f
 
 ## 📜 Licencia
 
-Distribuido bajo la licencia MIT. 📄 **Ver archivo [LICENSE](LICENSE) para más detalles.**
+📄 **Ver archivo [LICENSE](LICENSE) para más detalles.**
 
 ---
 

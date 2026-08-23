@@ -72,19 +72,40 @@ Su función principal es permitirte **mover, escalar y ajustar** cualquier capa 
 /
 ├── assets/
 │   ├── css/
-│   │   └── style.css              # Estilos del editor y panel de control
+│   │   └── style.css
 │   ├── img/
-│   │   ├── 01_rostro/             # Texturas de las capas (Rostro, Nariz, Labios, Ojos, etc.)
-│   │   ├── 02_cabello/            # Texturas de las capas de cabello
+│   │   ├── 01_rostro/
+│   │   │   ├── 01_Rostro_Base_Completa.png
+│   │   │   ├── 02_Nariz.png
+│   │   │   ├── 03_Labios.png
+│   │   │   ├── 04_Ojo_Izquierdo.png
+│   │   │   ├── 05_Ojo_Derecho.png
+│   │   │   ├── 06_Parpado_Izquierdo.png
+│   │   │   ├── 07_Parpado_Derecho.png
+│   │   │   ├── 08_Pestanas.png
+│   │   │   ├── 09_Cejas.png
+│   │   │   └── 10_Control_Glow.png
+│   │   ├── 02_cabello/
+│   │   │   ├── 01_Corona_Superior.png
+│   │   │   ├── 02_Frontal_Superior.png
+│   │   │   ├── 03_Lateral_Superior_Derecho.png
+│   │   │   ├── 04_Central_Derecho.png
+│   │   │   ├── 05_Lateral_Inf_Derecho.png
+│   │   │   ├── 06_Puntas_Derechas.png
+│   │   │   ├── 07_Inferior_Central.png
+│   │   │   ├── 08_Masa_Inf_Principal.png
+│   │   │   ├── 09_Central_Izquierdo.png
+│   │   │   ├── 10_Inferior_Izquierdo.png
+│   │   │   └── 11_Cuello_Hombro.png
 │   │   └── ui/
-│   │       ├── al.png             # Icono de alternancia del panel
-│   │       └── favicon.ico        # Icono del sitio
+│   │       ├── pc.png           
+│   │       └── favicon.ico
 │   └── js/
-│       └── script.js              # Lógica del visor y medición de coordenadas
-├── index.html                     # Estructura principal de la aplicación
-├── .gitignore                     # Archivos ignorados por Git
-├── LICENSE                        # Licencia MIT
-└── README.md                      # Documentación del proyecto
+│       └── script.js
+├── index.html
+├── .gitignore
+├── LICENSE
+└── README.md                   # Documentación del proyecto
 ```
 
 ## ⚙️ Características Clave

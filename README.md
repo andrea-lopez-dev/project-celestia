@@ -178,23 +178,6 @@ python -m http.server 8000
 
 Aunque Project Celestia es una herramienta de medición, el sistema subyacente fue sometido a pruebas para garantizar su precisión:
 
-## 🧪 Pruebas Técnicas
-
-Aunque Project Celestia es una herramienta de medición, el sistema subyacente fue sometido a pruebas para garantizar su precisión:
-
-| Tipo de Prueba | Descripción |
-|----------------|-------------|
-| **Renderizado** | Verificación de la correcta visualización de las capas y su orden (Render Order) |
-| **Interacción** | Validación de que los controles del panel reflejen en tiempo real las coordenadas exactas |
-| **Historial** | Pruebas exhaustivas del sistema Undo/Redo para asegurar que no se pierdan los valores al deshacer |
-| **Rendimiento** | Optimización del renderizado para mantener 60 FPS incluso con múltiples capas activas |
-
----
-
-## 🧪 Pruebas Técnicas
-
-Aunque Project Celestia es una herramienta de medición, el sistema subyacente fue sometido a pruebas para garantizar su precisión:
-
 | Tipo de Prueba | Descripción |
 |----------------|-------------|
 | **Renderizado** | Verificación de la correcta visualización de las capas y su orden (Render Order) |
